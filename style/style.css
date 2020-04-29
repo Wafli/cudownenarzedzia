@@ -1,0 +1,482 @@
+body {
+    background-image: url(../img/bg.png);
+    background-attachment: scroll;
+    background-color: white;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+.nag {
+    display: block;
+    width: 100vw;
+    height: 10%;
+    background-color: #5E9D34;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.menu {
+    min-width: 100vw;
+    height: 10%;
+    background-color: #5E9D34;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.button {
+    width: 100%;
+    height: 2.2vw;
+    background-color: #5E9D34;
+    float: left;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #68ad39;
+}
+
+.empty1 {
+    width: 10%;
+    height: 0.01vw;
+    display: box;
+    background-color: #5E9D34;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+a.click {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 10%;
+    height: 4vw;
+    float: left;
+    font-size: 1.45vw;
+    font-family: Arial;
+    font-weight: 700;
+}
+
+.buttona {
+    width: 100%;
+    height: 2.2vw;
+    background-color: #497a28;
+    float: left;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.empty {
+    height: 70px;
+}
+
+.tytul {
+    font-family: arial;
+    font-size: 2.8vw;
+    font-weight: 500;
+    width: 65vw;
+    height: 3.1vw;
+    margin: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #5E9D34;
+    background-color: #5E9D34;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.upinfo {
+    margin-top: 3%;
+    margin: auto;
+}
+
+.info {
+    padding: 1vw;
+    padding-left: 2vw;
+    font-family: arial;
+    font-size: 1vw;
+    font-weight: 500;
+    width: 45vw;
+    height: 91.5vw;
+    margin-left: 17%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(132, 218, 75);
+    background-color: #5E9D34;
+    text-align: center;
+    margin-top: 3%;
+    float: left;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.info2 {
+    font-family: arial;
+    font-size: 2.8vw;
+    font-weight: 500;
+    width: 14.4vw;
+    height: 20vw;
+    margin-left: 1.7vw;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(132, 218, 75);
+    background-color: darkgreen;
+    text-align: center;
+    margin-top: 3%;
+    float: left;
+}
+
+.mini1 {
+    margin-top: 1vw;
+    width: 10vw;
+    margin-left: 0;
+    background-color: darkgreen;
+}
+
+.mini2 {
+    margin-top: 1vw;
+    width: 10vw;
+    margin-left: 3%;
+    background-color: darkgreen;
+}
+
+.gallery {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+}
+
+.mini {
+    width: 30px;
+    height: 50px;
+    float: left;
+    margin: 10px;
+}
+
+.opacity {
+    opacity: 0.60
+}
+
+.opacity-off,
+.hover-opacity-off:hover {
+    opacity: 1
+}
+
+.section {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important
+}
+
+p {
+    padding-right: 20px;
+}
+
+.photo1 {
+    width: 90%;
+    display: none;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.info-in {
+    margin-top: 30px;
+}
+
+.end {
+    height: 5vw;
+}
+
+.footer {
+    background-color: darkgreen;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.crafting {
+    border-style: solid;
+    border-width: 4px;
+    border-color: darkgreen;
+    width: 22vw;
+    height: 12vw;
+}
+
+.cupleft {
+    width: 10vw;
+    height: 3vw;
+    border-color: darkgreen;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    font-weight: 550;
+}
+
+.cupright {
+    width: 12vw;
+    height: 3vw;
+    border-color: darkgreen;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    font-weight: 550;
+}
+
+.cbotleft {
+    width: 10vw;
+    height: 9vw;
+    border-color: darkgreen;
+    border-width: 2px;
+    border-style: solid;
+    font-weight: 550;
+    font-size: 0.9vw;
+}
+
+.cbotright {
+    width: 12vw;
+    height: 9vw;
+    border-color: darkgreen;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.craftimg {
+    height: 7vw;
+    width: 11vw;
+}
+
+.hipertext {
+    text-decoration: none;
+}
+
+.header {
+    border-bottom-style: solid;
+    border-color: darkgreen;
+    border-bottom-width: 2px;
+    padding-bottom: 3px;
+}
+
+.infomiecz {
+    padding: 1vw;
+    padding-left: 2vw;
+    font-family: arial;
+    font-size: 1vw;
+    font-weight: 500;
+    width: 45vw;
+    height: 117vw;
+    margin-left: 17%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(132, 218, 75);
+    background-color: #5E9D34;
+    text-align: center;
+    margin-top: 3%;
+    float: left;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.spis {
+    background-color: green;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgreen;
+}
+
+.spisa {
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+#wedka {
+    margin-top: 1.5vw;
+    width: 8vw;
+}
+
+#wedka2 {
+    width: 8vw;
+}
+
+#wedka3 {
+    width: 8vw;
+}
+
+.infowedka {
+    font-family: arial;
+    font-size: 2.8vw;
+    font-weight: 500;
+    width: 14.4vw;
+    height: 29.5vw;
+    margin-left: 1.7vw;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(132, 218, 75);
+    background-color: darkgreen;
+    text-align: center;
+    margin-top: 3%;
+    float: left;
+}
+
+.infonozyce {
+    font-family: arial;
+    font-size: 2.8vw;
+    font-weight: 500;
+    width: 14.4vw;
+    height: 14.4vw;
+    margin-left: 1.7vw;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(132, 218, 75);
+    background-color: darkgreen;
+    text-align: center;
+    margin-top: 3%;
+    float: left;
+}
+
+#nozyce {
+    width: 14vw;
+}
+
+.listaz {
+    list-style-type: circle;
+}
+
+.infokilof {
+    padding: 1vw;
+    padding-left: 2vw;
+    font-family: arial;
+    font-size: 1vw;
+    font-weight: 500;
+    width: 45vw;
+    height: 70 vw;
+    margin-left: 17%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(132, 218, 75);
+    background-color: #5E9D34;
+    text-align: center;
+    margin-top: 3%;
+    float: left;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.infowedka2 {
+    padding: 1vw;
+    padding-left: 2vw;
+    font-family: arial;
+    font-size: 1vw;
+    font-weight: 500;
+    width: 45vw;
+    height: 107vw;
+    margin-left: 17%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(132, 218, 75);
+    background-color: #5E9D34;
+    text-align: center;
+    margin-top: 3%;
+    float: left;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.infonozyce2 {
+    padding: 1vw;
+    padding-left: 2vw;
+    font-family: arial;
+    font-size: 1vw;
+    font-weight: 500;
+    width: 45vw;
+    height: 79vw;
+    margin-left: 17%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(132, 218, 75);
+    background-color: #5E9D34;
+    text-align: center;
+    margin-top: 3%;
+    float: left;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.infoaxe {
+    padding: 1vw;
+    padding-left: 2vw;
+    font-family: arial;
+    font-size: 1vw;
+    font-weight: 500;
+    width: 45vw;
+    height: 72vw;
+    margin-left: 17%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(132, 218, 75);
+    background-color: #5E9D34;
+    text-align: center;
+    margin-top: 3%;
+    float: left;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.infohoe {
+    padding: 1vw;
+    padding-left: 2vw;
+    font-family: arial;
+    font-size: 1vw;
+    font-weight: 500;
+    width: 45vw;
+    height: 60vw;
+    margin-left: 17%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(132, 218, 75);
+    background-color: #5E9D34;
+    text-align: center;
+    margin-top: 3%;
+    float: left;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.infosho {
+    padding: 1vw;
+    padding-left: 2vw;
+    font-family: arial;
+    font-size: 1vw;
+    font-weight: 500;
+    width: 45vw;
+    height: 79.5vw;
+    margin-left: 17%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(132, 218, 75);
+    background-color: #5E9D34;
+    text-align: center;
+    margin-top: 3%;
+    float: left;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.wiecej {
+    padding: 0.6vw;
+}
+
+#bruh {
+    font-family: Calibri;
+    font-style: Italic;
+}

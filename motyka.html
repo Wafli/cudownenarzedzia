@@ -1,0 +1,175 @@
+<!Doctype html>
+
+<html lang=pl>
+
+<head>
+    <title>Motyka</title>
+    <meta charset=utf-8>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+    <div class="nag"> </div>
+    <div>
+        <div class="empty1"> </div>
+        <a class=click href=index.html>
+            <div class="button"> Menu</div>
+        </a>
+        <a class=click href=miecz.html>
+            <div class="button"> Miecz</div>
+        </a>
+        <a class=click href=kilof.html>
+            <div class="button"> Kilof</div>
+        </a>
+        <a class=click href=siekiera.html>
+            <div class="button"> Siekiera</div>
+        </a>
+        <a class=click>
+            <div class="buttona"> Motyka</div>
+        </a>
+        <a class=click href=lopata.html>
+            <div class="button"> Łopata</div>
+        </a>
+        <a class=click href=wedka.html>
+            <div class="button"> Wędka</div>
+        </a>
+        <a class=click href=nozyce.html>
+            <div class="button"> Nożyce</div>
+        </a>
+        <div class="empty1"> </div>
+    </div>
+
+
+    <div class="empty">
+    </div>
+
+    <div class="tytul">Motyka, czyli narzędzie do plonów</div>
+    <div class="upinfo">
+        <div class="infohoe">
+            <h2>Motyka (ang. Hoe) − narzędzie służące do orania ziemi. Po użyciu motyki na ziemi, bloku trawy lub bielicy blok zmienia się w pole uprawne.</h2>
+
+            <table class="spis">
+                <tr>
+                    <td><a class="spisa" href="#whoe">Wytwarzanie</a></td>
+                </tr>
+                <tr>
+                    <td><a class="spisa" href="#nhoe">Naturalne generowanie</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="spisa" href="#ohoe">Oranie</a>
+                    </td>
+                </tr>
+            </table>
+            <div class="wiecej">
+                <a href="https://minecraft.fandom.com/wiki/Hoe">Więcej info</a><br>
+            </div><br>
+
+            <div class="header">
+                <h2>Otrzymywanie</h2>
+            </div>
+            <h3 id="whoe">Wytwarzanie</h3>
+            <table class="crafting">
+                <tr>
+                    <td class="cupleft">Wytwarzanie</td>
+                    <td class="cupright">Wejście > Wyjście</td>
+                </tr>
+                <tr>
+                    <td class="cbotleft">2 patyki +<br> 2 deski lub<br> 2 bruk lub<br> 2 sztabki żelaza lub<br> 2 sztabki złota lub<br> 2 diamenty</td>
+                    <td class="cbotright"><img class="craftimg" src="img/choe.png" alt="obraz"> </td>
+                </tr>
+            </table>
+
+            <h3 id="nhoe">Naturalne generowanie</h3>
+            <p>Diamentową motykę można znaleźć w skrzyni w Leśnym dworze, zawsze pojedynczo (21.8% szansy w Java Edition i 21.5% szansy w Bedrock Edition). Pojedyncza złota motyka występuje w skrzyniach w ruinach portalu (19,4% szansy) i ruinach bastionu
+                (13,3% szansy).</p>
+            <div class="header">
+                <h2>Zastosowanie</h2>
+            </div>
+
+            <h3 id="ohoe">Oranie</h3>
+            <p>Motykę możemy użyć na blokach ziemi, trawy lub bielicy aby zmienić je w pole uprawne. użycie motyki na twardej ziemi zmienia ją w zwykłą ziemię. Zamiana 1 bloku w pole uprawne zużywa 1 punkt wytrzymałości. Blok zamieniany jest w pole uprawne
+                natychmiastowo.
+            </p>
+
+
+            <footer class=footer>
+                <p>Jakub Komorowski 2tb</p>
+            </footer>
+        </div>
+
+
+
+        <div class="info2">
+            <div class="gallery" style="max-width:1000px">
+                <img class="photo photo1" src="img/hoe1.jpg" alt="obraz">
+                <img class="photo photo1" src="img/hoe2.jpg" alt="obraz">
+                <img class="photo photo1" src="img/hoe3.jpg" alt="obraz">
+                <img class="photo photo1" src="img/hoe4.jpg" alt="obraz">
+                <img class="photo photo1" src="img/hoe5.jpg" alt="obraz">
+                <div class="section">
+                    <div class="mini">
+                        <img class="demo opacity hover-opacity-off" src="img/hoe1.jpg" alt="obraz" style="width:100%;cursor:pointer;margin:auto;" onclick="currentDiv(1)">
+                    </div>
+                    <div class="mini">
+                        <img class="demo opacity hover-opacity-off" src="img/hoe2.jpg" alt="obraz" style="width:100%;cursor:pointer;margin:auto;" onclick="currentDiv(2)">
+                    </div>
+                    <div class="mini">
+                        <img class="demo opacity hover-opacity-off" src="img/hoe3.jpg" alt="obraz" style="width:100%;cursor:pointer;margin:auto;" onclick="currentDiv(3)">
+                    </div>
+                    <div class="mini">
+                        <img class="demo opacity hover-opacity-off" src="img/hoe4.jpg" alt="obraz" style="width:100%;cursor:pointer;margin:auto;" onclick="currentDiv(4)">
+                    </div>
+                    <div class="mini">
+                        <img class="demo opacity hover-opacity-off" src="img/hoe5.jpg" alt="obraz" style="width:100%;cursor:pointer;margin:auto;" onclick="currentDiv(5)">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="end"> </div>
+    <script>
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("photo");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace("opacity-off", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += "opacity-off";
+        }
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("photo");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {
+                slideIndex = 1
+            }
+            x[slideIndex - 1].style.display = "block";
+            setTimeout(carousel, 5000);
+        }
+    </script>
+</body>
+
+</html>
